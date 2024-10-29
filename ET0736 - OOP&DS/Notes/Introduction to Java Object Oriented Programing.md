@@ -115,8 +115,43 @@ public class HelloWorld {
 1. Blueprint definition containing:
 	- Attributes / properties / data mem
 	- Behaviors / Methods 
+
+>OOP vs Non - OOP
+1. Non - OOP
+	- In Non-OOP setting, we would create 3 Separate arrays:
+		- `name[]`
+		- `id[]`
+		- `gpa[]`
+2. OOP
+	- In OOP, we can the data can be clusterd into a class / 1 unit
+		- Example:
+```Java
+class SPStudent {
+	String name; 
+	String ID; 
+	double GPA;
+}
+```
 ---
 #### Data Structures & Algorithms
 
+>Data Structures
+1. Data that is being organized in a program for better accessibility & scalability
+	 - Shows how data is linked to each other _(Like a map)_
+	 - For Example:
+		 - Storing Longitude and Latitude data
+		 - Data Structure can show 1 location to another graphically
+
+>Algorithms
+1. Series of steps to be taken to arrive at the solution with use of a program
 ---
 #### Basics of Java
+
+>Identifier
+1. Name given to:
+	- Class
+	- Method
+	- Variable
+2. A place where data is stored
+3. Characteristics of Identifier:
+	- 
