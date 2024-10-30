@@ -1,4 +1,4 @@
-public class Activity2_1 {
+public class Activity3_1 {
     public static void main(String[] args) {
         Die D1= new Die(6);
         int result = D1.roll();
