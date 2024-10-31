@@ -167,3 +167,104 @@ class SPStudent {
 >Constant
 1. Data whose values are fixed
 2. Declared with the keyword `final`
+
+>Primitive Data Types
+
+`byte`
+- byte length integer
+- 8 bits
+- Min = - 2<sup>7</sup> = - 128
+- Max = 2<sup>7</sup> - 1 = 127
+- Default: `(byte) 0`
+
+`short`
+- short integer
+- 16 bits
+- Min = - 2<sup>15</sup>= - 32 768
+- Max = 2$^7$ - 1 = 32 767
+- Default: `(short) 0`
+
+`int`
+- integer
+- 32 bits
+-  Min = - 2<sup>31</sup> 
+- Max = 2<sup>31</sup> - 1 
+- Default: `0`
+
+`long`
+- long integer
+- 64 bits
+-  Min = - 2<sup>63</sup> 
+- Max = 2<sup>63</sup> - 1 
+- Default: `0 L`
+
+`float`
+- Single-Precision floating point
+- 32 bits, IEEE 754
+- ± 3.4E38 _(6 to 7 significant digits of accuracy)_
+- Default: `0.0F`
+
+`double`
+- Double-Precision floating point
+- 64 bits, IEEE 754
+- ± 1.7E308 (14 to 15 significant digits of accuracy)
+- Default: `0.0`
+
+`char`
+- Single character
+- 16 bits
+- Default: `'\u0000'`
+
+`boolean`
+- Boolean value
+- 8 bits
+- Default: `false`
+
+>Declaring Variable
+1. To be declared before assigning / initializing
+2. Can only be declared once
+3. Can be declared again under a different scope of code
+	- Will be a different variable
+	
+>Declaring & Initializing Constant
+1. Defined with the keyword `final`
+	- Makes value fixed, thus making a constant
+2. Naming of constant consists of capitalized letters & underscore
+	- Example:
+```Java
+final double MAX_WIDTH = 432.78;
+```
+
+3. `static` keyword + `final` keyword
+	- Makes it available without loading any instance of class which is defined
+	- Example:
+```Java
+static final int MAX_CLASS_SIZE = 20;
+```
+
+>Displaying Output in Terminal
+```Java
+int variable;
+
+System.out.println("text here" + variable + "more text");
+```
+
+>Literals
+1. Fixed values found in a program
+
+`Literals` vs `Constant`
+- `Literal`
+	- Can be assigned to / stored to variable's value / to constant
+	- A value / raw data
+	- Can be used for direct calculation
+- `Constant`
+	- Fixed variable
+	- cannot be changed
+
+>Operators
+1. Assignment
+	- `=, +=, -=, *=, /=, %=`
+1. Arithmetic
+2. Comparison / Relational
+3. Boolean
+4. Integer bitwise
