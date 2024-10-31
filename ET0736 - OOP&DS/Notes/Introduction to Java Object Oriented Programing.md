@@ -1,7 +1,6 @@
 ---
 
 ---
-
 ---
 --- CONTENTS ---
 1. [[#Terminology]]
@@ -154,4 +153,17 @@ class SPStudent {
 	- Variable
 2. A place where data is stored
 3. Characteristics of Identifier:
-	- 
+	- Cannot start with a digit
+	- Cannot contain space
+	- Cannot be a java keyword _(e.g. `class`)_
+	- Can only contain the following special characters:
+		- `$` and `_`
+	- Can start with a special character, limited to only `_`
+
+>Variable Name
+1. Identifier for computer memory space to store data
+2. Data can be changed
+
+>Constant
+1. Data whose values are fixed
+2. Declared with the keyword `final`
