@@ -1,0 +1,60 @@
+5G
+5G is the fifth generation of wireless technology, offering faster speeds and lower latency.
+5G offers significant improvements in speed and capacity compared to 4G, making it ideal for IoT applications.
+
+IoT
+IoT stands for the Internet of Things, a network of interconnected devices and objects that can communicate and share data.
+IoT works by connecting various devices, sensors, and objects to the internet to collect and exchange data for various applications.
+
+6G
+6G is 50 times faster in peak data rate than 5G.
+6G is 50 times more cost-efficient as compared to 5G.
+6G increases IoT batteries' lifespan twice as compared to 5G.
+
+Holographic images
+Holographic images require a peak data rate at Tbs level, while 5G is only at 20 Gbps.
+
+Smart vehicles
+For smart vehicles, we need ultra-low latency of less than a second. Even though 5G achieves that, it is only at static or low movement speed conditions, which is impractical for an electric car.
+
+What is ISTN
+An integrated satellite-terrestrial network (ISTN) is integration of satellite network and the terrestrial network, providing global seamless, ubiquitous services of accessing to Internet.
+
+Layers of ISTN
+ISTN consists of 3 layers: ground-based (terrestrial), airborne (non-terrestrial), and spaceborne (non-terrestrial). The ground-based layer is what we have now for cellular networks, constructed by terrestrial base stations. In fact, ships at sea can be used as base stations.
+
+Industry 4.0
+The term Industry 4.0 is also known as Industrial Internet of Things. Industry 4.0 is revolutionizing the way companies manufacture, improve and distribute their products. Manufacturers are integrating new technologies, including Internet of Things (IoT), cloud computing and analytics, and AI and machine learning into their production facilities and throughout their operations.
+
+IIoT
+The term Industry 4.0 is also known as Industrial Internet of Things. IIoT is just IoT but shifted into an industrial context.
+The top difference in IoT and IIoT is that in IIoT, the devices are time-critical with millisecond (ms) level tolerance only.
+
+Use case of IIoT
+IIoT use cases include product defect detection, equipment component assembly error checking, digital twin, and preventive maintenance.
+
+Challenges of IIoT
+Challenges of the IIoT network include device heterogeneity and the allocation of IIoT network bandwidth.
+
+Edge computing
+Edge computing is a network model that is better for processing large data from IIoT sensors, making it easier for cloud computing centers, reducing costs, enabling ms-level data processing, and decreasing required bandwidth for data transmission.
+MEC, Multi-Access Edge Computing, extends from cellular to Wi-Fi, bringing computing powers closer to the UE. Small cell clouds (SCC) architecture is one way to adopt MEC servers.
+
+Computation offloading
+Computation offloading is the process of transferring intensive computations to non-local resources.
+The main benefit is that tasks compute faster, leading to energy efficiency, cost optimization, and equipment lifespan enhancement.
+Different offloading scheme algorithms must be applied for different scenarios to achieve transmission optimization.
+
+Voice recognition AI
+Voice recognition AI, also known as Automatic Speech Recognition (ASR), is a technology that converts spoken language into text or commands.
+It has various applications, including virtual assistants, voice-activated devices, transcription services, and more.
+
+Applications of voice recognition AI
+It has various applications, including virtual assistants, voice-activated devices, transcription services, and more.
+
+Technology behind voice recognition AI
+Voice recognition AI uses complex algorithms and machine learning models to analyze audio input and convert it into text, allowing for voice-controlled interactions with technology.
+
+How to bake a bread?
+Gathering everything that you need to make the loaf. Measuring the ingredients. Mixing the dough to the right consistency. Resting and stretching & folding or kneading the dough.
+First rise/ fermentation/ proof. Deflating (gently) & dividing (if you are making more than one loaf) Shaping.
