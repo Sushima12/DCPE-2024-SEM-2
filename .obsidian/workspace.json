@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
+                "file": "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Math API and Arrays"
+              "title": "Class Objects and DIP"
             }
           }
         ]
@@ -161,20 +161,22 @@
   },
   "active": "b1ec65591806c408",
   "lastOpenFiles": [
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 2 Math API and Arrays.pdf",
+    "ET0732 - MLAI/Practical/Lab Test Sample.ipynb",
+    "ET0732 - MLAI/Practical/Untitled.ipynb",
+    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5/hello-view.fxml",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5/HelloController.class",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5/HelloApplication.class",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/module-info.class",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5/a.txt",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example",
-    "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com",
-    "ET0736 - OOP&DS/Practical/Lab 3/Activity 3-5/target/classes/com/example/activity3_5/hello-view.fxml",
+    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
+    "ET0736 - OOP&DS/Practical/Lab 3/Activity 3/out/production/Activity 3/Activity3_2.class",
+    "ET0736 - OOP&DS/Practical/Lab 3/Activity 3/out/production/Activity 3/Activity3_2$TwoDPoint.class",
+    "ET0736 - OOP&DS/Practical/Lab 6/ET0736 Practical 6.pdf",
+    "ET0736 - OOP&DS/Practical/Lab 6/ET0736 Practical 6.pdf.crdownload",
+    "ET0736 - OOP&DS/Practical/Lab 6",
+    "ET0736 - OOP&DS/Practical/New folder",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf.crdownload",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 2 Math API and Arrays.pdf",
     "ET0104 - ECS/Tutorial/Tutorial 3.md",
     "ET0104 - ECS/Notes/Untitled.md",
-    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "EP0709 - ACC/Notes/Introduction to Accounting.md",
     "Object Oriented Programming.md",
     "Financial Statements.md"

@@ -1,10 +1,12 @@
 public class Activity3_2 {
     public static void main(String[] args) {
-        double result;
+        double result_1, result_2;
         TwoDPoint P1 = new TwoDPoint(10, 10);
         TwoDPoint P0 = new TwoDPoint();
-        result = TwoDPoint.getDistance(P1);
-        System.out.println(result);
+        result_1 = TwoDPoint.getDistance(P1);
+        result_2 = TwoDPoint.getDistance(P0);
+        System.out.println(result_1);
+        System.out.println(result_2);
     }
     static class TwoDPoint {
         private double x;
