@@ -12,7 +12,8 @@
   - There should be a faint red light at the back to indicate connection
 
 >Setup:
-1. 
+1. Make sure the Port is referring to the AT Port
+   - Check device manager
 
 > AT Commands 
 1. `AT+QENG="servingcell"`
@@ -83,3 +84,40 @@
 
 ---
 ##### 5G -RPI4 and 5G Modem applications
+>Notes:
+1. Ensure that the USB Bridge is connecting the 5G module and RPi
+
+>Command to uninstall program
+- `sudo apt purge ProgramName` -y
+
+>Connecting RPi to WiFi
+1. `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+2. Open `wificonfig.txt` in desktop
+   - Copy it to the terminal
+3. Replace login credentials with school wifi login details
+   - `Ctrl + s` to save
+   - `Ctrl + x` to edit
+4. Restart networking service
+   - `sudo systemctl restart wpa_supplicant`
+5. Reboot RPi
+   - `sudo reboot`
+6. Minicom Installation
+   - `sudo apt-get install minicom`
+7. Activate Minicom
+   - `sudo minicom -D/dev/ttyUSB2`
+8. Turn off WiFi
+9. AT Commands to be sent to Minicom
+   - `AT+QNWPREFCFG= "mode_pref", NR5G`
+   - `AT+QENG=”servingcell”`
+   - `AT+QCFG=”usbnet”,1`
+     - switch to ECM mode
+   - `AT+CFUN=1,1`
+     - save and reboot
+10. It should output "Cannot Open /dev/ttyUSB2", then reboot the RPi
+    - `sudo reboot`
+11. After resetting, open terminal and enter the following commands
+    - `ifconfig usb0`
+    - `ping -c 10 google -I`
+
+---
+####
