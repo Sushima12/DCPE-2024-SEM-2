@@ -177,10 +177,76 @@ class SpStudent{
 ---
 #### Array of Objects and Sorting with Comparators
 
+>Array of Objects
+- Example:
+```java
+Car[] cars = { 
+	new Car ("SGX1234","Toyota",4.3), 
+	new Car ("SNG8888","Honda",1.9) 
+};
+```
+
+>Sorting Array of Objects
+- `Arrays.sort(array,Helper_Class)`,
+```java
+//in main():
+Arrays.sort (cars, new SortByBrand());
+```
+  and
+- Helper class implementing `Comparator` interface:
+```java
+class SortByBrand implements Comparator<Car> { 
+	@Override 
+	public int compare(Car a, Car b) { 
+	// sort by car brand 
+		return(int)(a.brand.compareTo(b.brand));
+	}
+}
+```
+`implements Comparator<Car>`
+- implementing Comparator interface with type `Car` _(Class/Object)_
+- `< E >` indicates that the container is a generic class
+
+`public int compare(Car a, Car b)`
+- Required to implement the method, `compare(E, E)`
+
+`a.brand.compareTo(b.brand)`
+- String Class method
+  - Compares 2 string lexicographically
+  - Refer to [[Introduction to Java Object Oriented Programing]]
+
 
 ---
-#### Passing Objects to Methods
+#### Referencing Objects and Passing Objects to Methods
 
+>Object Reference
+- Object Types
+  - not primitive types of variables
+- Name of Object Variable
+  - is the 'reference' to the object
+- Example
+```java
+class ClassName {
+	//code
+}
+
+//in main()
+ClassName c1 = new ClassName(); //refering to object c1
+ClassName c2 = new ClassName(); //refering to object c2
+
+c2 = c1
+```
+
+`c2 = c1`
+- `c2` points to object `c1`
+- Not a copy of object `c1`
+- The object previously referenced is no longer accessible, referred as  `garbage`
+  
+>Cloning of objects
+- Class need to implement `java.lang.Cloneable` interface
+
+>Passing Object to Method
+- Passed
 
 ---
 #### String Class

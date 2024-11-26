@@ -6,6 +6,7 @@
       {
         "id": "f160f2445a66bcb0",
         "type": "tabs",
+        "dimension": 51.03244837758112,
         "children": [
           {
             "id": "fe4c5a0a23d2f1e9",
@@ -13,12 +14,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
+                "file": "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practical Lab Notes"
+              "title": "Class Objects and DIP"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f94585d08b7f3952",
+        "type": "tabs",
+        "dimension": 48.96755162241888,
+        "children": [
+          {
+            "id": "444a8650bed3cf83",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 3 Class Objects and DIP.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ET0736 Lesson 3 Class Objects and DIP"
             }
           }
         ]
@@ -161,6 +181,11 @@
   },
   "active": "fe4c5a0a23d2f1e9",
   "lastOpenFiles": [
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 3 Class Objects and DIP.pdf",
+    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
+    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
+    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
+    "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
     "ET0743 - 5G & AIOT/Practical/5G & AIoT Lab 4 - Chatbot using Neural Networks/~$ & AIoT Lab 4 - Chatbot using Neural Networks.docx",
     "ET0743 - 5G & AIOT/Practical/Code/training.py",
     "ET0743 - 5G & AIOT/Practical/Code/tfidfChatbot.py",
@@ -170,13 +195,7 @@
     "ET0743 - 5G & AIOT/Practical/Code/5GAIoT.txt",
     "ET0743 - 5G & AIOT/Practical/Code",
     "ET0743 - 5G & AIOT/Practical/Chatbot_zip.zip",
-    "ET0743 - 5G & AIOT/QCom/QCOM_V1.6-1/QCOM_V1.6-1/TP.ini",
-    "ET0743 - 5G & AIOT/Practical/5G & AIoT LAB 1 - 5G Modem with WindowOS - v1a.pdf",
     "ET0104 - ECS/Notes/Untitled.md",
-    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
-    "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
-    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
-    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0104 - ECS/Tutorial/Tutorial 3.md",
     "EP0709 - ACC/Notes/Introduction to Accounting.md",
     "Object Oriented Programming.md",
