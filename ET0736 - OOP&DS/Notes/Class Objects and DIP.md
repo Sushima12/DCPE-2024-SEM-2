@@ -246,14 +246,87 @@ c2 = c1
 - Class need to implement `java.lang.Cloneable` interface
 
 >Passing Object to Method
-- Passed
+- Passed by reference into methods
+```java
+class Animal {
+	// some code
+}
+
+public class main {
+	public static void main(String[] args) {
+		//Creating Object "animal"
+		Animal animal = new Animal();
+		
+		//Call ChopAnimal() function
+		ChopAnimal(animal)
+	}
+	
+	//Function with parameter that only accepts Animal type objects
+	static void ChopAnimal(Animal a) {
+		//some code
+	}
+}
+```
 
 ---
 #### String Class
 
+>Modifying String Objects
+- Can use Classes such as:
+  - `StringBuilder()`
+```java
+class TestString { 
+	public static void main(String[] args) { 
+		StringBuilder s = new StringBuilder ("I like orange" );
+		ABC(s); 
+		System.out.println ("After ABC() called, s = " +s); 
+	} 
+				  
+	public static void ABC(StringBuilder a) { 
+		// new string object is created as old literal is immutable 
+		a += " and apple"; 
+	
+		System.out.println ("Inside ABC() , s = " +a); 
+	} 
+}
+```
+  - `StringBuffer()`
 
 ---
 #### Static Variable and Methods
+
+>Static Variable
+- is attached to a `Class`
+- shared by all objects of the `Class`
+- has only 1 copy of the variable
+- is declared with `static` keyword
+- Can be assessed by 
+  - `Class_name.Variable_name`
+  - `Object_name.Variable_name`
+- Example:
+```java
+class Circle { 
+	String Color; 
+	double Radius; 
+	static int count=0; // class variable 
+	
+	Circle (String c, double r){ 
+		Color = c; 
+		Radius = r; 
+		count++; 
+	} 
+} 
+
+public class TestClassVariable { 
+	public static void main(String[] args) { 
+		Circle x = new Circle("red",1.0); 
+		System.out.println ("count=" + Circle.count); // Count = 1
+		Circle y = new Circle("red",5.0); 
+		Circle z = new Circle("blue",10.0); 
+		System.out.println ("count=" + y.count); //Count = 3
+	} 
+}
+```
 
 
 ---
