@@ -11,14 +11,12 @@
             "id": "3493e4e358162d3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
-                "mode": "source",
-                "source": false
+                "file": "ET0104 - ECS/Lectures/Chapter 1/ECS Chapter 1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Fundamentals of Cellular Communication and 5G"
+              "icon": "lucide-file-text",
+              "title": "ECS Chapter 1"
             }
           }
         ]
@@ -161,8 +159,9 @@
   },
   "active": "3493e4e358162d3f",
   "lastOpenFiles": [
-    "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
+    "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
+    "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
     "EP0709 - ACC/Notes/Introduction to Accounting.md",
     "EP0709 - ACC/~$ck test MST Question.docx",
     "EP0709 - ACC/Mock test MST Question.docx",
