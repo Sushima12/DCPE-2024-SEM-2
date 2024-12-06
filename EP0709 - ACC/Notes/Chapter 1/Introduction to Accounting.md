@@ -8,6 +8,7 @@
 5. [[#Forms of Business Entities]]
 6. [[#Basic Accounting Equation]]
 7. [[#Financial Statements]]
+8. Terminology
 ---
 #### Importance of Accounting
 
@@ -186,3 +187,34 @@ $$
 2. Consists of: 
 	- Balance of the ledger
 	- Retained Earnings (Net Profit in Shareholders Equity)
+
+---
+#### Terminology
+
+>Inventory
+- Goods that a trading business buys for resale
+
+>Revenue
+- Amount earned from selling goods or providing services
+
+>Sales Revenue
+- Amount earned from selling inventory
+
+>Expense
+- Cost to earn revenue
+
+>Cost of Sales
+- Cost of inventory sold
+  - an expense
+
+>On Credit
+- to pay later
+- a liability
+- Example:
+  - Accounts Payable
+
+>Sold on Credit
+- Company receive cash later
+- an asset
+- Example:
+  - Accounts Receivable

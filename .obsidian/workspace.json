@@ -4,71 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c46e1fea80d40602",
+        "id": "f0aded0df3070c05",
         "type": "tabs",
         "children": [
           {
-            "id": "b51281083e002345",
+            "id": "d793c46c41da9247",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ET0104 - ECS/Lectures/Chapter 1/ECS Chapter 1.pdf"
+                "file": "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ECS Chapter 1"
+              "icon": "lucide-file",
+              "title": "Analysing and Recording Transactions"
             }
           },
           {
-            "id": "72303846cd70bc9b",
+            "id": "a98352b98fdd598f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ET0104 - ECS/Lectures/Chapter 2/ECS Chapter 2.pdf"
+                "file": "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ECS Chapter 2"
-            }
-          },
-          {
-            "id": "c7bfd10ab0643b0a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0104 - ECS/Lectures/Chapter 3/Chapter 3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Chapter 3"
-            }
-          },
-          {
-            "id": "53e8794338d28f53",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0104 - ECS/Lectures/Chapter 4/Chapter 4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Chapter 4"
-            }
-          },
-          {
-            "id": "9b7c97ef45a97294",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0104 - ECS/Lectures/Chapter 8/chapter8.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "chapter8"
+              "icon": "lucide-file",
+              "title": "Introduction to Accounting"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,26 +174,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53e8794338d28f53",
+  "active": "a98352b98fdd598f",
   "lastOpenFiles": [
-    "ET0104 - ECS/Lectures/Chapter 8/chapter8.pdf",
-    "ET0104 - ECS/Lectures/Chapter 4/Chapter 4.pdf",
-    "ET0104 - ECS/Lectures/Chapter 3/Chapter 3.pdf",
-    "ET0104 - ECS/Lectures/Chapter 2/ECS Chapter 2.pdf",
+    "EP0709 - ACC/MST Practice/~$lutions Set 2 MST.docx",
+    "EP0709 - ACC/MST Practice/~$estion Set 2 MST.docx",
+    "EP0709 - ACC/MST Practice/~$lutions Set 1 MST.docx",
+    "EP0709 - ACC/Lectures/~$Ch 2 ppt.pptx",
+    "EP0709 - ACC/MST Practice/~$estion Set 1 MST 19-5.docx",
+    "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
+    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "ET0104 - ECS/Lectures/Chapter 1/ECS Chapter 1.pdf",
+    "ET0104 - ECS/Lectures/Chapter 2/ECS Chapter 2.pdf",
+    "ET0104 - ECS/Lectures/Chapter 3/Chapter 3.pdf",
+    "ET0104 - ECS/Lectures/Chapter 4/Chapter 4.pdf",
+    "ET0104 - ECS/Lectures/Chapter 8/chapter8.pdf",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
     "Pasted image 20241202213800.png",
     "ET0104 - ECS/Lectures/Chapter 8/Chapter 8.ppt",
-    "ET0104 - ECS/Lectures/Chapter 4/Chapter 4.ppt",
-    "ET0104 - ECS/Lectures/Chapter 8/252.ppt",
-    "ET0104 - ECS/Lectures/Chapter 8",
-    "ET0104 - ECS/Lectures/New folder",
-    "ET0104 - ECS/Lectures/Chapter 4/288.pdf",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
     "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
-    "EP0709 - ACC/Notes/Introduction to Accounting.md",
     "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
     "ET0732 - MLAI/Notes/MLAI Lab Test 1 Notes.md",
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
