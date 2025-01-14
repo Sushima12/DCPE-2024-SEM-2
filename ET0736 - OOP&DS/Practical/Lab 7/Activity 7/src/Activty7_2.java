@@ -4,12 +4,14 @@ public class Activty7_2 {
     }
 
     public static int FibNumFrom (int first, int second, int n) {
-        
-        if (N == n) {
-            return
+        //
+        if (n == 0) {
+            return first;
+        } else if (n == 1) {
+            return second;
         } else {
             //General Case:
-            Number = FibNumFrom(first, second,N-1) + FibNumFrom(first, second,N-2);
+            return FibNumFrom(first, second,n-1) + FibNumFrom(first, second,n-2);
         }
     }
 }

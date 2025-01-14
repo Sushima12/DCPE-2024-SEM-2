@@ -41,12 +41,14 @@
             "id": "5cf03a28144622c0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ET0736 - OOP&DS/Practical/Lab 7/ET0736 Practical 7 with GUI.pdf"
+                "file": "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ET0736 Practical 7 with GUI"
+              "icon": "lucide-file",
+              "title": "Math API and Arrays"
             }
           }
         ]
@@ -105,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7548895c4d0e103c",
@@ -190,20 +191,19 @@
   },
   "active": "56f40e113208d026",
   "lastOpenFiles": [
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 7 Recursive Programming.pdf",
+    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
+    "ET0736 - OOP&DS/Practical/Lab 7/ET0736 Practical 7 with GUI.pdf",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activity7_3.java",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activity7_3",
     "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7/Activty7_2.class",
     "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activty7_2.java~",
-    "ET0736 - OOP&DS/Practical/Lab 7/ET0736 Practical 7 with GUI.pdf",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 7 Recursive Programming.pdf",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
     "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activty7_2.java",
     "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activity7_1.java~",
     "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7/Activity7_1.class",
-    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7",
-    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production",
-    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out",
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
-    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
