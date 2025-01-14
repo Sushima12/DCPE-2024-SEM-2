@@ -295,7 +295,7 @@ public static void main(String[] args) {
 public static void whereAmI(int []x, int key){
 	for (int i=0; i<x.length; i++) {
 		if (x[i]==key) 
-			System.out.println(key + “ found at index = “ + i); 
+			System.out.println(key +  " found at index = " + i); 
 		}
 	}
 }

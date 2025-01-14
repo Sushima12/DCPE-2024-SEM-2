@@ -4,39 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "f0aded0df3070c05",
+        "id": "e76d6108068ead7e",
         "type": "tabs",
         "children": [
           {
-            "id": "d793c46c41da9247",
+            "id": "56f40e113208d026",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
-                "mode": "source",
-                "source": false
+                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 7 Recursive Programming.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Analysing and Recording Transactions"
+              "icon": "lucide-file-text",
+              "title": "ET0736 Lesson 7 Recursive Programming"
             }
           },
           {
-            "id": "a98352b98fdd598f",
+            "id": "c978fdc11dea6ae4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
-                "mode": "source",
-                "source": false
+                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Introduction to Accounting"
+              "icon": "lucide-file-text",
+              "title": "ET0736 Lesson 6 Java Collections Framework"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "37f2241bad705b87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cf03a28144622c0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ET0736 - OOP&DS/Practical/Lab 7/ET0736 Practical 7 with GUI.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ET0736 Practical 7 with GUI"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7548895c4d0e103c",
@@ -174,31 +188,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a98352b98fdd598f",
+  "active": "56f40e113208d026",
   "lastOpenFiles": [
-    "EP0709 - ACC/MST Practice/~$lutions Set 2 MST.docx",
-    "EP0709 - ACC/MST Practice/~$estion Set 2 MST.docx",
-    "EP0709 - ACC/MST Practice/~$lutions Set 1 MST.docx",
-    "EP0709 - ACC/Lectures/~$Ch 2 ppt.pptx",
-    "EP0709 - ACC/MST Practice/~$estion Set 1 MST 19-5.docx",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7/Activty7_2.class",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activty7_2.java~",
+    "ET0736 - OOP&DS/Practical/Lab 7/ET0736 Practical 7 with GUI.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 7 Recursive Programming.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activty7_2.java",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/src/Activity7_1.java~",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7/Activity7_1.class",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production/Activity 7",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out/production",
+    "ET0736 - OOP&DS/Practical/Lab 7/Activity 7/out",
+    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
+    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
+    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
-    "ET0104 - ECS/Lectures/Chapter 1/ECS Chapter 1.pdf",
-    "ET0104 - ECS/Lectures/Chapter 2/ECS Chapter 2.pdf",
-    "ET0104 - ECS/Lectures/Chapter 3/Chapter 3.pdf",
-    "ET0104 - ECS/Lectures/Chapter 4/Chapter 4.pdf",
-    "ET0104 - ECS/Lectures/Chapter 8/chapter8.pdf",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
     "Pasted image 20241202213800.png",
-    "ET0104 - ECS/Lectures/Chapter 8/Chapter 8.ppt",
-    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
     "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
     "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
     "ET0732 - MLAI/Notes/MLAI Lab Test 1 Notes.md",
-    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
-    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0104 - ECS/Tutorial/Tutorial 3.md",
     "Object Oriented Programming.md",
     "Financial Statements.md"

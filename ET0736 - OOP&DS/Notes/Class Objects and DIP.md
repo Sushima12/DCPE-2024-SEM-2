@@ -328,17 +328,123 @@ public class TestClassVariable {
 }
 ```
 
+>Static Methods
+- Attached to a class (not to any specific object)
+- Similar to class variable, where a `static` modifier is added in front of a method
+- Can be accessed by 
+  - `Class_name.method_name`
+  - `Object_name.method_name`
+- Can only other static methods and static variables defined in the class
+- Using non-static method and variable in the class results in the compiler warning that it cannot be referenced from a static context
+- Example of static methods:
+```java
+class SPApartmentRental { 
+	private double rental; 
+	private static int UnitsLeft=10; 
+	SPApartmentRental(double r) { 
+		UnitsLeft--; 
+		rental = r; 
+	} 
+	static int getUnitsLeft() { 
+		return UnitsLeft; 
+	} 
+} 
+public class TestStaticMethod { 
+	public static void main(String[] args) { 
+		System.out.println(SPApartmentRental.getUnitsLeft()); //class_name.method_name
+		SPApartmentRental s1 = new SPApartmentRental(1800.50); 
+		System.out.println(s1.getUnitsLeft()); //object_name.method_name
+		//Output:
+		//10
+		//9
+	}
+}
+```
+---
+#### Encapsulation
+>Characteristics commonly associated with OOP
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
 
+>Encapsulation
+- Hiding implementation details of object within itself
+- Allows access to necessary data/method from outside the class
+- Done by:
+  - Employing various access modifiers
+  - Organizing programs in packages
+
+>Access Modifiers (Public vs Private)
+- `public`
+	-  Variable / Method in the class is accessible and available to all the other objects in the program
+- `private`
+	- Variable / Method in the class is available within the class only
+	- Accessing private attributes in a class from outside can be achieved  by Getter and Setter Methods
 ---
 #### Getter and Setter Methods
 
+>Getter Method
+```java
+class SpStudent {
+	private double GPA = 0.0;
+}
+public double getGPA() {return(GPA);}
+```
 
+```java
+//Accessing Getter Method
+public class Project {
+	public static void main (String[] args) {
+		SpStudent s1 = new SpStudent();
+		System.out.println("GPA after year 1:" + s1.getGPA());
+	}
+}
+```
+
+>Setter Method
+```java
+class Circle {
+	private double radius;
+
+	public Circle() {radius 7.0;}
+	public Circle(double r) {radius = r;}
+
+	public double getRadius() {return radius;}
+	public setRadius(double r) {radius = r;}
+}
+```
 ---
 #### Package in Java
-
+> Package
+- used for better organizing the various classes in a program.
+- better accessibility control can be implemented
+- uses `package`
 
 ---
 #### Java Wrapper Class
 
+>Wrapper Class
+- Provides the mechanism to convert primitive into object and object into primitive 
+- Why Wrapper Class
+	- Classes of collection framework deal with objects only, thus the need to convert
 
+
+| Primitive Type | Wrapper Class |
+| -------------- | ------------- |
+| boolean        | Boolean       |
+| char           | Character     |
+| byte           | Byte          |
+| short          | Short         |
+| int            | Integer       |
+| long           | Long          |
+| float          | Float         |
+| double         | Double        |
+
+
+>Autoboxing
+- Conversion of primitive type into an object
+
+>Unboxing
+- Conversion of object to primitive type
 ---
