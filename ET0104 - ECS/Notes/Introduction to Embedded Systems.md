@@ -105,6 +105,20 @@
 - Used by CPU
   - to send out address of memory location that is to be read or written into
   - to send out address of a particular input / output port
-- Unibidirectional
+- Unidirectional
   - information moves in 1 direction
-  - starts from cpu
+  - starts from CPU
+
+`Data Bus`
+- Bidirectional
+  - data flows to and from the CPU, Memory, I/O Ports
+- Device outputs connected onto the data bus must have three-state buffers
+  - So that these devices can be floated except when the device is being selected
+  - The term `Floated` means that it is grounded / open circuit
+- Number of conductors in data bus is based on the number of binary digits the CPU can handle at a given time
+- Quantity of data stored at each location is based on the memory device
+  - may be a 1/4/8/16 bit(s) per location
+
+`Control Bus`
+- To carry signals which synchronize the activities of the separate blocks of computer system
+- Tells the memory & I/O ports whether the CPU is Reading or Writing
