@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 
 # Load the Saved Model
-model = tf.keras.models.load_model('C:/Python/rps/my_model.hdf5')
-
+model = tf.keras.models.load_model('C:/Python/MLAI/my_model.hdf5')
+        
 def import_and_predict(image_data, model):
     size = (75, 75)
     image = ImageOps.fit(image_data, size, Image.LANCZOS)

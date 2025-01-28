@@ -12,12 +12,14 @@
             "id": "62dccaada2c851e7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ET0104 - ECS/Project/ECS Project Brief.pdf"
+                "file": "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ECS Project Brief"
+              "icon": "lucide-file",
+              "title": "Analysing and Recording Transactions"
             }
           }
         ]
@@ -181,17 +183,19 @@
   },
   "active": "62dccaada2c851e7",
   "lastOpenFiles": [
+    "EP0709 - ACC/CA2/~WRL3879.tmp",
+    "EP0709 - ACC/CA2/~WRD3762.tmp",
+    "EP0709 - ACC/CA2/~WRD3758.tmp",
+    "EP0709 - ACC/CA2/EP05_Poh Boon Siong_CA2.pdf",
+    "EP0709 - ACC/CA2/Cover Page.pdf",
+    "EP0709 - ACC/CA2/msoCF79.tmp",
+    "EP0709 - ACC/CA2/msoCF49.tmp",
+    "EP0709 - ACC/CA2/~$ver Page.docx",
+    "EP0709 - ACC/CA2/mso24A1.tmp",
+    "EP0709 - ACC/CA2/mso2462.tmp",
+    "EP0709 - ACC/CA2/~WRL1904.tmp",
+    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "ET0104 - ECS/Project/ECS Project.md",
-    "ET0104 - ECS/Project/ECS Project Brief.pdf",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 4 Inheritance Polymorphism ArrayList.pdf",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 8 Implementation of Containers and Binary Search Tree.pdf",
-    "ET0736 - OOP&DS/Practical/Lab 8/ET0736 Practical 8.pdf",
-    "ET0736 - OOP&DS/Practical/Lab 8/Activity 8/src/Activity8_1_and_2.java~",
-    "ET0736 - OOP&DS/Practical/Lab 8/Activity 8/out/production/Activity 8/MyArrayList.class",
-    "ET0736 - OOP&DS/Practical/Lab 8/Activity 8/out/production/Activity 8/Activity8_1_and_2.class",
-    "ET0736 - OOP&DS/Practical/Lab 8/Activity 8/src/Activity8_1_and_2.java",
-    "ET0736 - OOP&DS/Practical/Lab 8/Activity 8/out/production/Activity 8/Activity8_1.class",
     "CC - PBCA/Interview preparation.md",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
     "ET0732 - MLAI/Project/README.md",
@@ -199,7 +203,6 @@
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
-    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "Pasted image 20241202213800.png",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
