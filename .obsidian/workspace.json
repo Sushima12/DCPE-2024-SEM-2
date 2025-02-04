@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f43e02f0d0281396",
+        "id": "d27418b958024a68",
         "type": "tabs",
         "children": [
           {
-            "id": "65f4e4f2d1b19064",
+            "id": "147c252b9fa9c930",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -18,48 +18,25 @@
               "icon": "lucide-file-text",
               "title": "ET0736 Lesson 4 Inheritance Polymorphism ArrayList"
             }
-          },
-          {
-            "id": "858840cc386415ed",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 9 Graph"
-            }
-          },
-          {
-            "id": "dcc5a5471296420c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0736 - OOP&DS/Practical/Lab 9/ET0736 Practical 9.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ET0736 Practical 9"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "512a15801c66dab7",
+        "id": "749469912b30118b",
         "type": "tabs",
         "children": [
           {
-            "id": "5e6ad60eb492b888",
+            "id": "d79fb637575caaec",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf"
+                "file": "ET0736 - OOP&DS/Notes/Inheritance, Polymorphism & ArrayList.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 6 Java Collections Framework"
+              "icon": "lucide-file",
+              "title": "Inheritance, Polymorphism & ArrayList"
             }
           }
         ]
@@ -119,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7548895c4d0e103c",
@@ -202,21 +178,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcc5a5471296420c",
+  "active": "d79fb637575caaec",
   "lastOpenFiles": [
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 4 Inheritance Polymorphism ArrayList.pdf",
+    "ET0736 - OOP&DS/Notes/Inheritance, Polymorphism & ArrayList.md",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf",
     "ET0736 - OOP&DS/Practical/Lab 9/ET0736 Practical 9.pdf",
+    "ET0736 - OOP&DS/Notes/Untitled.md",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
     "ET0736 - OOP&DS/Practical/Lab 9/Activity 9/src/BFS_manual.java~",
     "ET0736 - OOP&DS/Practical/Lab 9/Activity 9/src/BFS_manual.java",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf",
-    "ET0736 - OOP&DS/Notes/Inheritance, Polymorphism & ArrayList.md",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 4 Inheritance Polymorphism ArrayList.pdf",
     "ET0736 - OOP&DS/Lectures/ET0736 Lesson 3 Class Objects and DIP.pdf",
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
     "ET0736 - OOP&DS/Practical/Lab 9/Activity 9/Activity 9.iml",
     "ET0736 - OOP&DS/Practical/Lab 9/Activity 9/src/Main.java",
     "ET0736 - OOP&DS/Practical/Lab 9/Activity 9/src",
-    "ET0736 - OOP&DS/Practical/Lab 9/Activity 9",
     "ET0104 - ECS/Project/ECS Project.md",
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
