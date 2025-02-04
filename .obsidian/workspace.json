@@ -4,43 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f379baef7a71cfb7",
-        "type": "tabs",
-        "dimension": 56.62905500705219,
-        "children": [
-          {
-            "id": "62dccaada2c851e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Analysing and Recording Transactions"
-            }
-          }
-        ]
-      },
-      {
         "id": "7d50f8d07501f1d4",
         "type": "tabs",
-        "dimension": 43.37094499294781,
         "children": [
           {
             "id": "71ec03a7832bc59d",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 3 Class Objects and DIP.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ET0736 Lesson 3 Class Objects and DIP"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b0cec898d67cb4ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24738d604955dbc9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "ET0104 - ECS/Project/ECS Project.md",
+                "file": "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECS Project"
+              "title": "Class Objects and DIP"
             }
           }
         ]
@@ -99,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7548895c4d0e103c",
@@ -181,8 +178,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62dccaada2c851e7",
+  "active": "24738d604955dbc9",
   "lastOpenFiles": [
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 3 Class Objects and DIP.pdf",
+    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
+    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
+    "ET0104 - ECS/Project/ECS Project.md",
+    "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "EP0709 - ACC/CA2/~WRL3879.tmp",
     "EP0709 - ACC/CA2/~WRD3762.tmp",
     "EP0709 - ACC/CA2/~WRD3758.tmp",
@@ -192,17 +194,11 @@
     "EP0709 - ACC/CA2/msoCF49.tmp",
     "EP0709 - ACC/CA2/~$ver Page.docx",
     "EP0709 - ACC/CA2/mso24A1.tmp",
-    "EP0709 - ACC/CA2/mso2462.tmp",
-    "EP0709 - ACC/CA2/~WRL1904.tmp",
     "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
-    "ET0104 - ECS/Project/ECS Project.md",
     "CC - PBCA/Interview preparation.md",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
     "ET0732 - MLAI/Project/README.md",
     "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
-    "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
-    "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
-    "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "Pasted image 20241202213800.png",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",

@@ -444,7 +444,100 @@ class Circle {
 
 >Autoboxing
 - Conversion of primitive type into an object
+- Example:
+```java
+Byte byteobj=b; 
+Short shortobj=s; 
+Integer intobj=i; 
+Long longobj=l; 
+Float floatobj=f; 
+Double doubleobj=d; 
+Character charobj=c; 
+Boolean boolobj=bb;
 
->Unboxing
+```
+
+>Autounboxing
 - Conversion of object to primitive type
+- Example
+```java
+byte bytevalue=byteobj; 
+short shortvalue=shortobj; 
+int intvalue=intobj; 
+long longvalue=longobj; 
+float floatvalue=floatobj; 
+double doublevalue=doubleobj; 
+char charvalue=charobj; 
+boolean boolvalue=boolobj;
+```
+
+>Converting String to int
+```java
+String s = "33";
+int i = Integer.parseInt(s); // "33" to int 33
+```
+
+>Converting String to Integer
+```java
+String s = "33";
+Integer i = Integer.valueOf(s);//"33" to Integer 33
+```
 ---
+#### "has-a" Relationship
+
+>What is a "has-a" relation
+- when 2 objects is related by "has-a" relationship
+- known as composition
+- Example:
+  - a `Traveller` object "has-a" `Car` object
+- Impact:
+  - causes a close coupling between objects
+
+---
+#### Dependency Inversion Principle (DIP)
+
+>Dependency Inversion Principle
+- refers to coupling between the different classes
+- High level classes should rely on abstractions instead of concrete implementations of the lower classes
+- Classes following DIP are loosely coupled, thus it is more maintainable , reusable and easier to test
+- Implementing DIP
+	- Setter Method
+	- Constructor Method
+
+>DIP by Setter
+```java
+public static void main(String[] args) { 
+	Car theCar = new Car(“SHA1234); 
+	Traveller a = new Traveller(); 
+	a.setCar(theCar); 
+	a.travel("AMK"); }
+```
+- Car object is outside Traveller Class
+	- This decouples the lifecycle of Car objects from Traveller Class
+
+```Java
+class Traveller { 
+	Car myCar; 
+	public void setCar(Car c) { 
+		myCar = c; } 
+	public void travel(String dest) { 
+		myCar.move(dest); 
+	}
+}
+```
+- Car object is passed in via the Setter method
+	- Changes made to the constructor in Car Class will not affect the Traveller Class
+
+```java
+class Car { 
+	String licensePlate; 
+	Car(String n) { 
+		licensePlate = n; 
+	} 
+	public void move(String dest) {
+		System.out.println ("Going to" + dest + "by car"); 
+	} 
+}
+```
+
+>DIP by Constructor 
