@@ -4,43 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f379baef7a71cfb7",
+        "id": "621be0638e4d0cfa",
         "type": "tabs",
-        "dimension": 56.62905500705219,
         "children": [
           {
-            "id": "62dccaada2c851e7",
+            "id": "8384944284c9c885",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
-                "mode": "source",
-                "source": false
+                "file": "ET0736 - OOP&DS/Practical/Lab 8/ET0736 Practical 8.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Analysing and Recording Transactions"
+              "icon": "lucide-file-text",
+              "title": "ET0736 Practical 8"
             }
-          }
-        ]
-      },
-      {
-        "id": "7d50f8d07501f1d4",
-        "type": "tabs",
-        "dimension": 43.37094499294781,
-        "children": [
+          },
           {
-            "id": "71ec03a7832bc59d",
+            "id": "3447b087932691e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ET0104 - ECS/Project/ECS Project.md",
-                "mode": "source",
-                "source": false
+                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf"
               },
-              "icon": "lucide-file",
-              "title": "ECS Project"
+              "icon": "lucide-file-text",
+              "title": "ET0736 Lesson 6 Java Collections Framework"
             }
           }
         ]
@@ -62,7 +50,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -181,28 +170,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62dccaada2c851e7",
+  "active": "c34c05f90e2c27ae",
   "lastOpenFiles": [
-    "EP0709 - ACC/CA2/~WRL3879.tmp",
-    "EP0709 - ACC/CA2/~WRD3762.tmp",
-    "EP0709 - ACC/CA2/~WRD3758.tmp",
-    "EP0709 - ACC/CA2/EP05_Poh Boon Siong_CA2.pdf",
-    "EP0709 - ACC/CA2/Cover Page.pdf",
-    "EP0709 - ACC/CA2/msoCF79.tmp",
-    "EP0709 - ACC/CA2/msoCF49.tmp",
-    "EP0709 - ACC/CA2/~$ver Page.docx",
-    "EP0709 - ACC/CA2/mso24A1.tmp",
-    "EP0709 - ACC/CA2/mso2462.tmp",
-    "EP0709 - ACC/CA2/~WRL1904.tmp",
-    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 8 Implementation of Containers and Binary Search Tree.pdf",
+    "EP0709 - ACC/Tutorials and Practices/CDC49340",
+    "ET0736 - OOP&DS/Practical/Lab 8/ET0736 Practical 8.pdf",
+    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
+    "EP0709 - ACC/Tutorials and Practices/~$Tutorial 9 Templates.xlsx",
+    "EP0709 - ACC/Tutorials and Practices/~$torial 9 Questions.docx",
+    "EP0709 - ACC/Tutorials and Practices/Tutorial 9 Questions.docx",
+    "EP0709 - ACC/Tutorials and Practices/Tutorial 9 Templates.xlsx",
+    "EP0709 - ACC/Lectures/~$Ch 5 ppt.pptx",
+    "EP0709 - ACC/Lectures/Ch 5 ppt.pptx",
     "ET0104 - ECS/Project/ECS Project.md",
+    "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
+    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "CC - PBCA/Interview preparation.md",
     "ET0104 - ECS/Notes/Introduction to Embedded Systems.md",
     "ET0732 - MLAI/Project/README.md",
     "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
-    "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "Pasted image 20241202213800.png",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
