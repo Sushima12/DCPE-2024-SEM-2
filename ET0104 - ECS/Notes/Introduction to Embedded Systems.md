@@ -122,3 +122,9 @@
 `Control Bus`
 - To carry signals which synchronize the activities of the separate blocks of computer system
 - Tells the memory & I/O ports whether the CPU is Reading or Writing
+- Read Line
+	- activated by CPU when it wants to retrieve data from memory or input data from input
+	- Placed on the Control Bus
+- Write Line
+	- activated by CPU when it wants to store data into the memory or output data to output device
+	- Placed on the Data bus
