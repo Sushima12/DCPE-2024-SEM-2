@@ -4,78 +4,96 @@
     "type": "split",
     "children": [
       {
-        "id": "af0d7183a2204572",
+        "id": "057886237bf56830",
         "type": "tabs",
         "children": [
           {
-            "id": "b2ed84a4c103ddde",
+            "id": "d836ee6b42f6062e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf"
+                "file": "ET0732 - MLAI/Lecture/TOPIC ONE _Summary Notes_forStudents.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 9 Graph"
+              "title": "TOPIC ONE _Summary Notes_forStudents"
             }
           },
           {
-            "id": "a9c7eb97aff3fad0",
+            "id": "229ad22f454131f0",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 8 Implementation of Containers and Binary Search Tree.pdf"
+                "file": "ET0732 - MLAI/Lecture/TOPIC FOUR_COMPUTER VISION_SummaryNotes_ET0732.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 8 Implementation of Containers and Binary Search Tree"
+              "title": "TOPIC FOUR_COMPUTER VISION_SummaryNotes_ET0732"
             }
           },
           {
-            "id": "2616185c7456c921",
+            "id": "42b66ecd1a314bad",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 7 Recursive Programming.pdf"
+                "file": "ET0732 - MLAI/Lecture/TOPIC THREE_SummaryNotes_ET0732_2420_V2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 7 Recursive Programming"
-            }
-          },
-          {
-            "id": "e48fd198e6ae727b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ET0736 Lesson 6 Java Collections Framework"
+              "title": "TOPIC THREE_SummaryNotes_ET0732_2420_V2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
-        "id": "83c68fa46813793b",
+        "id": "36a4c7b08563e8ed",
         "type": "tabs",
         "children": [
           {
-            "id": "8d4aea32656ebe27",
+            "id": "1a484bfef87b6840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ET0736 - OOP&DS/Notes/Lab Test 3 Quick Notes.md",
+                "file": "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab Test 3 Quick Notes"
+              "title": "Introduction to AI and Machine Learning"
+            }
+          },
+          {
+            "id": "b85acc711521b02d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to Accounting"
+            }
+          },
+          {
+            "id": "f35c38b1b3fa4de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ET0732 - MLAI/Notes/Launching Into Machine Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Launching Into Machine Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7548895c4d0e103c",
@@ -215,19 +232,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2ed84a4c103ddde",
+  "active": "f35c38b1b3fa4de2",
   "lastOpenFiles": [
-    "ET0736 - OOP&DS/Sample Test 3/out/production/Sample Test 3/Q2.class",
-    "ET0736 - OOP&DS/Sample Test 3/src/Q2.java~",
-    "ET0736 - OOP&DS/Sample Test 3/out/production/Sample Test 3/Vertex.class",
-    "ET0736 - OOP&DS/Sample Test 3/out/production/Sample Test 3/Q1.class",
-    "ET0736 - OOP&DS/Sample Test 3/out/production/Sample Test 3",
-    "ET0736 - OOP&DS/Sample Test 3/out/production",
-    "ET0736 - OOP&DS/Sample Test 3/out",
-    "ET0736 - OOP&DS/Sample Test 3/src/Q2.java",
-    "ET0736 - OOP&DS/Sample Test 3/src/Q1.java~",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
-    "ET0736 - OOP&DS/Sample Test 3/src/Q1.java",
+    "ET0732 - MLAI/Lecture/TOPIC THREE_SummaryNotes_ET0732_2420_V2.pdf",
+    "ET0732 - MLAI/Notes/Launching Into Machine Learning.md",
+    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
+    "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
+    "ET0732 - MLAI/Lecture/TOPIC FOUR_COMPUTER VISION_SummaryNotes_ET0732.pdf",
+    "ET0732 - MLAI/Lecture/TOPIC ONE _Summary Notes_forStudents.pdf",
+    "ET0732 - MLAI/Lab 2 Python Programming Basics_ET0732.pdf",
+    "ET0732 - MLAI/Lecture/msoADAF.tmp",
+    "ET0732 - MLAI/Lecture/msoA977.tmp",
+    "ET0732 - MLAI/Lecture/~$PIC FOUR_COMPUTER VISION_SummaryNotes_ET0732.docx",
+    "ET0732 - MLAI/Lecture/mso4494.tmp",
+    "ET0732 - MLAI/Lecture/mso435B.tmp",
+    "ET0732 - MLAI/Lecture/~$PIC ONE _Summary Notes_forStudents.docx",
+    "ET0732 - MLAI/Notes/MLAI Lab Test 1 Notes.md",
     "ET0736 - OOP&DS/Notes/Lab Test 3 Quick Notes.md",
     "CC - PBCA/Interview preparation.md",
     "ET0736 - OOP&DS/Notes/Inheritance, Polymorphism & ArrayList.md",
@@ -239,16 +259,13 @@
     "ET0736 - OOP&DS/Notes/Class Objects and DIP.md",
     "ET0104 - ECS/Project/ECS Project.md",
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
-    "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "ET0732 - MLAI/Project/README.md",
     "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "Pasted image 20241202213800.png",
-    "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
     "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
     "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
-    "ET0732 - MLAI/Notes/MLAI Lab Test 1 Notes.md",
     "ET0104 - ECS/Tutorial/Tutorial 3.md",
     "Object Oriented Programming.md",
     "Financial Statements.md"

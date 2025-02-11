@@ -102,3 +102,73 @@
 - Application
   - Data driven, identifies a pattern
 
+>Types of Supervised Learning
+1. Clustering
+	- Groups data points together
+	- Uses customer demographics to determine customer segmentation
+	- Uses K means clustering
+2. Association
+	- Identifies Underlying relationships
+	- Correlates 2 products to place them closer in a grocery store
+	- Uses  association rule learning
+3. Dimensionality Reduction
+	- Reduces number of dimensions in dataset to improve efficiency  of the model
+	- Combines characteristics to create a simplified rule for a insurance quote
+	- uses principal component analysis
+
+---
+#### AI Development Options
+
+>AI Development approaches:
+1. Pre-trained APIs
+	- Use existing models
+	- No expertise required
+	- Best for beginners
+2. BigQuery ML
+	- Create models with SQL
+	- for tabular data users
+	- for SQL users
+3. AutoML
+	- No code model building
+	- user friendly interface
+	- suitable for minimal coding
+4. Custom Training
+	- Full control to build models from scratch
+	- Requires expertise
+	- for those seeking control
+
+>User Needs
+- Business Users:
+	- Automate tasks without ML experience
+- Data Analysts:
+	- Build custom models with SQL 
+- ML Engineers / Scientists: 
+	- DIY Coding
+
+---
+#### AI Development options in detail
+
+>Pre-trained APIs
+- Natural Language API: Text analysis
+- Vision API: Image recognition
+- Video Intelligence API: Motion Analysis 
+- Document AI: Document processing
+- Dialogflow API: Conversational Interfaces
+
+> Vertex AI
+- Unified platform for end to end ML development
+- Key features:
+	- ML Pipeline
+	- Scalability
+	- Reusability
+
+>AutoML
+- Automates the ML development process
+- Offers a no-code interface for easy model building
+
+>Custom Training:
+- DIY approach to ML projects with pre-built / custom containers
+- Tools Included:
+	- Vertex AI Workbench
+	- Colab Enterprise
+- Uses ML Libraries such as TensorFlow
