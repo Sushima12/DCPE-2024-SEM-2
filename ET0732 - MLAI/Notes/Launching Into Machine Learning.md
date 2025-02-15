@@ -50,4 +50,30 @@
 ---
 #### Machine Learning in Practice
 
+>Supervised Learning
+- Involves Labeled Data (Predict tips)
+
+>Unsupervised Learning
+- Unlabeled data (CLustering)
+
+>Types of Supervised Learning Problems
+1. Regression
+	- Predicts continuous values
+		- Tips based on bill
+2. Classification
+	- Predict Categorical values
+		- Gender based on features
+
+>Cross Entropy
+- Minimize error, misclassification between predicted class nad labelled class
+
+>Data Types
+- Structured Data
+	- Organized in rows and columns
+- Unstructured Data
+	- Images / audio .... etc
+---
+#### Model Training Optimization
+
+
 

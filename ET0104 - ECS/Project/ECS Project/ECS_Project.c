@@ -2,7 +2,6 @@
 /*         Graphics lab             */
 /************************************/
 
-
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
@@ -55,7 +54,51 @@ int main(int argc, char *argv[])
 	
 	initlcd();
     //Home Screen
-	home_screen()
+	home_screen();
+
+	CM3DeviceDeInit();   
+}
+//Common Functions
+//1. Dispensing your Drink
+//2. Home Screen
+//3. Confirmation
+//4. Sugar Option
+//5. Creamer Option
+//6. Temperature Option
+
+void dispense_drink() {
+    //Waiting Screen
+    system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+
+    lcd_writecmd(0x01); // clear
+    lcd_writecmd(0x80);
+    LCDprint("Dispensing...");
+    lcd_writecmd(0xC0);
+    LCDprint("Please Wait...");
+    usleep(15000000);
+
+    //End Screen
+    system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+
+    lcd_writecmd(0x01);
+    LCDprint("Enjoy :D");
+
+    //Delay 10 Seconds
+    usleep(10000000);
+    home_screen();
+}
+
+void home_screen() {
+	//Return to Home Screen
+	system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+    // LCD and Keypad
+	lcd_writecmd(0x01);	//clear
+    lcd_writecmd(0x80);                 /* set LCD to line 1 */
+	LCDprint("Choose Your Drink"); 		/* print string to LCD */
+	lcd_writecmd(0xC0);					/* set LCD to line 2 */
+	LCDprint("1-9 to select");			/* print string to LCD */
+
+	//Drink Selection
 	while(1)                            /* loop forever */
 	{
 		unsigned char i,ii;													// store keypad input and modified keypad input
@@ -74,20 +117,18 @@ int main(int argc, char *argv[])
 			{
 				//Nespresso, Lipton Tea, Milo
                 //Sugar Option, Creamer Option
-				system("DISPLAY=:0.0 pqiv -f /tmp/ &");    		// linux system command to launch PQIV ("specify display, launch PQIV, launch fullscreen, image path in linux, continue with program")
-			} 																//									   ("DIAPLAY=:0.0        pqiv           -f              /tmp/image1/jpg            &            ")      
+				sugar_option();
+			} 							      
 			if (i == '4' ^ i == '5' ^ i == '7' ^ i == '9')
 			{	
 				//Cadbury, HL Milk, Ovaltine, Minute Maid
-
-				system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+				confirmation();
 			}
 			if (i == '8')
 			{
 				//Evian Water
 				//Display Temperature
-				system("DISPLAY=:0.0 pqiv -f /tmp/ &");
-                LCDPrint("Choose Temperature");
+				temperature_option();
 			}
 			if (i == '0')
 			{
@@ -101,44 +142,163 @@ int main(int argc, char *argv[])
 			usleep(300000);
 		}
 	}
-
-	CM3DeviceDeInit();   
-
-}
-//Common Functions
-//1. Dispensing your Drink
-//2. Home Screen
-
-void dispense_drink(void) {
-    //Waiting Screen
-    system("DISPLAY=:0.0 pqiv -f /tmp/ &");
-
-    lcd_writecmd(0x01);
-    lcd_writecmd(0x80);
-    LCDprint("Dispensing...");
-    lcd_writecmd(0xC0);
-    LCDprint("Please Wait...");
-    usleep(15000000);
-
-    //End Screen
-    system("DISPLAY=:0.0 pqiv -f /tmp/ &");
-
-    lcd_writecmd(0x01);
-    LCDprint("Enjoy :D");
-
-    //Delay 10 Seconds
-    usleep(10000000);
-    home_screen();
 }
 
-void home_screen(void) {
-    //Return to Home Screen
-    system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+void confirmation(void) {
+	//Confirmation Page
+	system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+	// Confirm drink
+	lcd_writecmd(0x01);	//clear
+	lcd_writecmd(0x80);                
+	LCDprint("1 to Confirm"); 		
+	lcd_writecmd(0xC0);					
+	LCDprint("0 to Cancel");
+	while(1) {
+		unsigned char i,ii;
+		i = ScanKey();
+		if (i != 0xFF)														
+		{
+			if (i > 0x39) {
+				ii = i - 0x37;
+			} else {
+				ii = i - 0x30;
+			}
 
-    lcd_writecmd(0x80);                 /* set LCD to line 1 */
-	LCDprint("Choose Your Drink"); 		/* print string to LCD */
-	lcd_writecmd(0xC0);					/* set LCD to line 2 */
-	LCDprint("(0 to Exit)");			/* print string to LCD */
+			CM3_outport(LEDPort, Bin2LED[ii]);
+
+			//Options
+			if (i == '1') {
+				// Brewing page
+				dispense_drink();
+			} else if (i == '0') {
+				// Home screen
+				home_screen();
+			}
+		}
+	}
+	
+	
+}
+
+void sugar_option(void) {
+	//Sugar Page
+	system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+	//LCD
+	lcd_writecmd(0x01);	//clear
+	lcd_writecmd(0x80);                
+	LCDprint("Select sugar option"); 		
+	lcd_writecmd(0xC0);	
+	LCDprint("1-3 to select, 0 to exit");
+	while(1) {
+		unsigned char i,ii;
+		i = ScanKey();
+		if (i != 0xFF)														
+		{
+			if (i > 0x39) {
+				ii = i - 0x37;
+			} else {
+				ii = i - 0x30;
+			}
+
+			CM3_outport(LEDPort, Bin2LED[ii]);
+
+			//Options
+			if (i == '1') {
+				//No Sugar
+				creamer_option();
+			} else if (i == '2') {
+				//Normal amount of sugar
+				creamer_option();
+			} else if(i == '3') {
+				//Less Sugar
+				creamer_option();
+			} else if(i == '0') {
+				home_screen();
+			}
+		}
+	} 			
+	
+}
+
+void creamer_option(void) {
+	//Creamer page
+	system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+	//LCD
+	lcd_writecmd(0x01);	//clear
+	lcd_writecmd(0x80);                
+	LCDprint("Select creamer option"); 		
+	lcd_writecmd(0xC0);	
+	LCDprint("1-2 to select, 0 to exit"); 
+	
+	while(1) {
+		unsigned char i,ii;
+		i = ScanKey();
+		if (i != 0xFF)														
+		{
+			if (i > 0x39) {
+				ii = i - 0x37;
+			} else {
+				ii = i - 0x30;
+			}
+
+			CM3_outport(LEDPort, Bin2LED[ii]);
+
+			//Options
+			if (i == '1') {
+				//No Creamer
+				confirmation();
+			} else if (i == '2') {
+				//Creamer
+				confirmation();
+			} else if(i == '0') {
+				home_screen();
+			}
+		}
+	}
+	
+}
+
+void temperature_option(void) {
+	//Temperature Page
+	system("DISPLAY=:0.0 pqiv -f /tmp/ &");
+	//LCD
+	lcd_writecmd(0x01);	//clear
+	lcd_writecmd(0x80);                
+	LCDprint("Select temperature option"); 		
+	lcd_writecmd(0xC0);	
+	LCDprint("1-4 to select, 0 to exit");
+
+	while(1) {
+		unsigned char i,ii;
+		i = ScanKey();
+		if (i != 0xFF)														
+		{
+			if (i > 0x39) {
+				ii = i - 0x37;
+			} else {
+				ii = i - 0x30;
+			}
+
+			CM3_outport(LEDPort, Bin2LED[ii]);
+
+			//Options
+			if (i == '1') {
+				//Hot
+				confirmation();
+			} else if (i == '2') {
+				//Warm
+				confirmation();
+			} else if(i == '3') {
+				//Normal
+				confirmation();
+			} else if(i == '4') {
+				//Cold
+				confirmation();
+			} else if(i == '0') {
+				home_screen();
+			}
+		}
+	}
 }
 
 //----------- LCD Functions --------------
