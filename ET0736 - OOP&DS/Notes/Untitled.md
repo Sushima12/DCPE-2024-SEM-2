@@ -28,6 +28,11 @@ compare_actors_in_movie(A, B)
 			actor Y
 				if X == Y
 					common actor = X
-				
 
+
+qrtuvwx    z
+1245678910
+
+
+1 2 3 4 5
 		
