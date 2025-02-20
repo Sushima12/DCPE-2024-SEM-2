@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f983c58252b711ee",
+        "id": "d61a2c2cc4a57bc6",
         "type": "tabs",
         "children": [
           {
-            "id": "b72e52e751ea36d7",
+            "id": "6b3586969fa03be9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Math API and Arrays"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9932c15525ad54ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b75f569184299291",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ET0736 - OOP&DS/Notes/Exception Handling, Abstract Class and Interface.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exception Handling, Abstract Class and Interface"
+              "title": "New tab"
             }
           }
         ]
@@ -180,8 +156,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c34c05f90e2c27ae",
+  "floating": {
+    "id": "987509457f8694b9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b739558003c54918",
+        "type": "window",
+        "children": [
+          {
+            "id": "3879122d16df5bdd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "add3f53fb344386f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "ET0743 - 5G & AIOT/Lectures/notes_chp6_5G&AIoTBizModels&Strategies_20241230.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "notes_chp6_5G&AIoTBizModels&Strategies_20241230"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 324,
+        "y": 44,
+        "width": 1222,
+        "height": 796,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6b3586969fa03be9",
   "lastOpenFiles": [
+    "ET0743 - 5G & AIOT/Lectures/notes_chp6_5G&AIoTBizModels&Strategies_20241230.pdf",
+    "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
+    "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
+    "ET0743 - 5G & AIOT/Lectures/Wk1_forStudents_chp1_introto5G&AIoT_v01_pdf20240409.pdf",
+    "ET0743 - 5G & AIOT/Lectures/wk11_chp4_5G&AIoTTech_20240620.pdf",
+    "ET0743 - 5G & AIOT/Lectures/Wk4_5_forStudents_chp3_fundofAIoT_edited_20240408.pdf",
+    "ET0743 - 5G & AIOT/Lectures/Wk2_3_forStudents_chp2_fundof5G_20240409.pdf",
+    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0736 - OOP&DS/Lectures/ET0736 Lesson 2 Math API and Arrays.pdf",
     "ET0736 - OOP&DS/Lectures/ET0736 Lesson 9 Graph.pdf",
     "ET0736 - OOP&DS/Lectures/ET0736 Lesson 6 Java Collections Framework.pdf",
@@ -189,13 +210,8 @@
     "ET0736 - OOP&DS/Notes/Untitled.md",
     "ET0736 - OOP&DS/Practical/Lab 5/Activity 5-5/target/classes/com/example/activity5_5/hello-view.fxml",
     "ET0736 - OOP&DS/Practical/Lab 3/Activity 3-5/target/classes/com/example/activity3_5/hello-view.fxml",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 5 Exception Abstract class Interface.pdf",
     "ET0736 - OOP&DS/Notes/Exception Handling, Abstract Class and Interface.md",
-    "ET0736 - OOP&DS/Lectures/ET0736 Lesson 4 Inheritance Polymorphism ArrayList.pdf",
     "ET0736 - OOP&DS/Notes/Inheritance, Polymorphism & ArrayList.md",
-    "ET0736 - OOP&DS/Practical/Lectures Test/Test.java",
-    "ET0736 - OOP&DS/Practical/Lab 3/Activity 3-5/target/classes/com/example/activity3_5/HelloController.class",
-    "ET0736 - OOP&DS/Practical/Lab 3/Activity 3-5/target/classes/com/example/activity3_5/HelloApplication.class",
     "ET0732 - MLAI/Notes/Introduction to AI and Machine Learning.md",
     "ET0732 - MLAI/Notes/Launching Into Machine Learning.md",
     "ET0736 - OOP&DS/Notes/Lab Test 3 Quick Notes.md",
@@ -209,11 +225,8 @@
     "EP0709 - ACC/Notes/Chapter 2/Analysing and Recording Transactions.md",
     "EP0709 - ACC/Notes/Chapter 1/Introduction to Accounting.md",
     "ET0732 - MLAI/Project/README.md",
-    "ET0736 - OOP&DS/Notes/Math API and Arrays.md",
     "ET0736 - OOP&DS/Notes/Introduction to Java Object Oriented Programing.md",
     "Pasted image 20241202213800.png",
-    "ET0743 - 5G & AIOT/Notes/Fundamentals of Cellular Communication and 5G.md",
-    "ET0743 - 5G & AIOT/Notes/Introduction to 5G AIoT.md",
     "ET0743 - 5G & AIOT/Notes/Practical Lab Notes.md",
     "ET0732 - MLAI/Notes/MLAI Lab Test 1 Notes.md",
     "ET0104 - ECS/Tutorial/Tutorial 3.md",
