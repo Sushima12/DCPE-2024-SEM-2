@@ -15,6 +15,12 @@
 unsigned char ProcKey();
 unsigned char ScanKey();
 
+//Remember to initiallise functions here also
+
+void dispense_drink();
+void home_screen();
+void
+
 const unsigned char ScanTable [12] =
 {
   /* 0     1     2     3 */
